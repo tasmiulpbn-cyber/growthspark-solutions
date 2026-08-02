@@ -1,0 +1,8 @@
+export { AiDeliveryProcessSection } from './AiDeliveryProcessSection'
+export { CapabilitiesSection } from './CapabilitiesSection'
+export { ContactSection } from './ContactSection'
+export { FaqSection } from './FaqSection'
+export { FeaturedCaseStudiesSection } from './FeaturedCaseStudiesSection'
+export { FeaturedSolutionSection } from './FeaturedSolutionSection'
+export { ServicesSection } from './ServicesSection'
+export { SolutionBlueprintsSection } from './SolutionBlueprintsSection'

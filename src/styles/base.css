@@ -1,0 +1,67 @@
+@layer base {
+  *,
+  *::before,
+  *::after {
+    border-color: var(--color-border-default);
+  }
+
+  html {
+    background: var(--color-bg);
+    color: var(--color-text-primary);
+    font-family: var(--font-family-sans);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 20rem;
+    min-height: 100vh;
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text-primary);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-family-display);
+    letter-spacing: var(--letter-spacing-heading);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: rgb(139 92 246 / 35%);
+    color: var(--color-text-primary);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent-primary);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

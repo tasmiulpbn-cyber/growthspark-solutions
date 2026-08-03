@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GrowthSpark Solutions">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="57" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151827"/>
+      <stop offset="1" stop-color="#07080d"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="18" y1="15" x2="48" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="0.48" stop-color="#7c5cf2"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="14.5" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+  <path fill="url(#spark)" d="M32 11c1.7 10.7 4.6 17.6 16 21-11.4 3.4-14.3 10.3-16 21-1.7-10.7-4.6-17.6-16-21 11.4-3.4 14.3-10.3 16-21Z"/>
+  <circle cx="46.5" cy="17.5" r="3.5" fill="#67e8f9"/>
+  <circle cx="17.5" cy="47" r="2.5" fill="#8b5cf6"/>
+</svg>

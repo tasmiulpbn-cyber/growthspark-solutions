@@ -44,7 +44,6 @@ export function SiteFooter() {
             <ul className="site-footer__socials">
               <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="Visit LinkedIn"><Share2 size={15} aria-hidden="true" />LinkedIn<ArrowUpRight size={12} aria-hidden="true" /></a></li>
               <li><a href="https://x.com/" target="_blank" rel="noreferrer" aria-label="Visit X"><AtSign size={15} aria-hidden="true" />X / Twitter<ArrowUpRight size={12} aria-hidden="true" /></a></li>
-              <li><a href="mailto:hello@growthspark.solutions" aria-label="Email GrowthSpark Solutions"><Mail size={15} aria-hidden="true" />Email<ArrowUpRight size={12} aria-hidden="true" /></a></li>
             </ul>
           </div>
         </div>

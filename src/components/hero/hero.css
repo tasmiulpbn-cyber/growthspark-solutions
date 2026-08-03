@@ -584,12 +584,21 @@
     }
 
     .hero__title {
-      font-size: clamp(2.65rem, 13vw, 4rem);
+      max-width: 12ch;
+      font-size: clamp(2.45rem, 11vw, 3.5rem);
+      line-height: 1.02;
+      text-wrap: balance;
+    }
+
+    .hero__title span {
+      display: block;
     }
 
     .hero__description {
+      max-width: 35rem;
       margin-top: var(--space-lg);
-      line-height: 1.65;
+      font-size: 1rem;
+      line-height: 1.75;
     }
 
     .hero__actions {
